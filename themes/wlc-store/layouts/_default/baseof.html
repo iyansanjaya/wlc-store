@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="id">
+
+    <head>
+        {{- partial "head.html" . -}}
+    </head>
+    
+    <body class="themebgcolor">
+        <div class="circlebg1"><img class="img-fluid" src="/img/circlebg19.svg" alt="img"></div>
+        <div class="circlebg2"><img class="img-fluid" src="/img/circlebg20.svg" alt="img"></div>
+        <div class="circlebg3"><img class="img-fluid" src="/img/circlebg21.svg" alt="img"></div>
+        {{- partial "header.html" . -}}
+        
+        {{- block "main" . }}{{- end }}
+      
+        {{- partial "footer.html" . -}}
+    </body>
+
+</html>
